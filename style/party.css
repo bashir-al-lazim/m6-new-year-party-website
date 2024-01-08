@@ -278,11 +278,17 @@ button {
 }
 
 .gift {
-    width: 32.05634477254%;
+    width: 32%;
     max-width: 401.666px;
     max-height: 426.297px;
     /*height problem solved with this*/
     border-radius: 16px;
+    border: transparent 3px dashed;
+}
+
+.gift:hover{
+    border: #F00 3px solid;
+    background-color: #F00;
 }
 
 /* subscribe section */
