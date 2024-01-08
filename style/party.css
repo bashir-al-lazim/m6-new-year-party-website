@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+/* general styles */
+
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner,
+main section {
+    width: 82.5%;
+    max-width: 1253px;
+    border-radius: 16px;
+    margin: 0 auto 120px;
+}
+
+.red-me {
+    color: #F00;
+}
+
+button {
+    color: #FFF;
+    background: #F00;
+    background-color: ;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    min-width: max-content;
+    cursor: pointer;
+}
+
+.subtitle-1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.subtitle-2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.description {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* ---header--- */
+
+/* banner */
+
+.banner {
+    color: #FFF;
+    text-align: center;
+
+    background-image: url(../resources/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-top: 50px;
+}
+
+.banner-container {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 177px 344px;
+}
+
+.banner-title {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.banner-subtitle {
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* ---main sections--- */
+
+/* off section */
+
+.off {
+    text-align: center;
+}
+
+.off-title {
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.off-subtitle-2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+/* welcome section */
+
+.welcome {
+    text-align: left;
+    color: #FFF;
+
+    background-image: url(../resources/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcome-overlay {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    padding: 126px 410px 126px 104px;
+}
+
+.welcome-title {
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.welcome-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+
+.welcome-button {
+    background: linear-gradient(90deg, #070211 35%, #fe9800 100%);
+}
+
+.welcome-button:hover {
+    border-left: #ffae34 4px solid;
+}
+
+/* hotel section */
+
+.hotel {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+    border-bottom: #F00 6px solid;
+    padding: 100px 0 110px;
+}
+
+.hotel-details {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 48px;
+}
+
+.hotel-button {
+    left: 43%;
+    right: 43%;
+    position: absolute;
+}
+
+.hotel-button:hover {
+    background: #e00000;
+    font-size: 21px;
+}
+
+/* coming soon section */
+
+.coming-soon {
+    text-align: left;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture-border {
+    display: flex;
+
+    width: 57.9489%;
+    max-width: 463px;
+    max-height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 40px;
+    margin: 0 97.35px 0 57.75px;
+}
+
+.Y2024 {
+    align-self: self-end;
+}
+
+.Y2024-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.Y2024 img {
+    margin-top: 43px;
+}
+
+/* sale section */
+
+.sale {
+    text-align: center;
+}
+
+.big-sale-subtitle,
+.big-sale-subtitle span {
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.big-sale-subtitle {
+    color: #070211;
+}
+
+.sale-description {
+    width: 80.9%;
+    margin: 28px auto 64px;
+}
+
+.sale-discount {
+    position: relative;
+    height: 662px;
+    background-image: url(../resources/Rectangle\ 2.png), url(../resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom, right top;
+    border-radius: 16px;
+}
+
+#sale-gift {
+    position: absolute;
+    width: 670px;
+    height: 530px;
+    left: 30px;
+    top: 85px;
+}
+
+#sale-50 {
+    position: absolute;
+    right: 270px;
+    top: 75px;
+}
+
+/* portfolio section */
+
+.portfolio-text {
+    width: 72%;
+    margin-bottom: 48px;
+}
+
+.gift-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.gift {
+    width: 32.05634477254%;
+    max-width: 401.666px;
+    max-height: 426.297px;
+    /*height problem solved with this*/
+    border-radius: 16px;
+}
+
+/* subscribe section */
+
+.subscribe {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+}
+
+.subscribe-container {
+    width: 67.87%;
+    max-width: 850.52px;
+    margin: 0 auto;
+}
+
+.subscribe img {
+    margin-bottom: 40px;
+}
+
+.subscribe form {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe input {
+    border: none;
+}
+
+.subscribe input[required] {
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-weight: 400;
+    text-indent: 30px;
+    padding-right: 19%;
+}
+
+.subscribe input[type="submit"] {
+    height: 74px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 56px;
+}
+
+/* footer sections */
+
+footer{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    background: #070211;
+    padding: 120px 140px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-two{
+    padding-right: 135px;
+}
+
+.first-two-container{
+    display: flex;
+    align-items: center;
+}
+
+.first-two-container img{
+    padding-right: 16px;
+}
+
+.second hr{
+    border: 1px solid #ffffff15;
+    margin: 50px 0;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+}
