@@ -114,6 +114,7 @@ button {
 /* welcome section */
 
 .welcome {
+    position: relative;
     text-align: left;
     color: #FFF;
 
@@ -121,6 +122,12 @@ button {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.welcome-2024{
+    position: absolute;
+    top: 13%;
+    right: 110px;
 }
 
 .welcome-overlay {
@@ -139,6 +146,7 @@ button {
 }
 
 .welcome-description {
+    width: 85%;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -237,6 +245,10 @@ button {
 }
 
 .sale-description {
+    color: #07021199;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
     width: 80.9%;
     margin: 28px auto 64px;
 }
@@ -267,7 +279,7 @@ button {
 /* portfolio section */
 
 .portfolio-text {
-    width: 72%;
+    width: 82%;
     margin-bottom: 48px;
 }
 
@@ -283,11 +295,11 @@ button {
     max-height: 426.297px;
     /*height problem solved with this*/
     border-radius: 16px;
-    border: transparent 3px dashed;
+    border: transparent 5px solid;
 }
 
 .gift:hover{
-    border: #F00 3px solid;
+    border: #F00 5px solid;
     background-color: #F00;
 }
 
@@ -325,7 +337,6 @@ button {
     height: 72px;
     border-radius: 50px 0 0 50px;
     background: #FFF;
-    color: rgba(7, 2, 17, 0.30);
     font-size: 18px;
     font-weight: 400;
     text-indent: 30px;
@@ -379,7 +390,11 @@ footer{
 .second-container{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
+}
+
+.second-container img:hover{
+    box-shadow: 0 2px 10px #ff0000;
 }
 
 .third{
